@@ -479,7 +479,8 @@ body {
   color: #b1a374 !important;
 }
 .text-white {
-  color: #ffffff !important;
+  /*color: #ffffff !important;*/
+  color: #203466 !important;
 }
 .text-black {
   color: #000000 !important;
@@ -529,7 +530,7 @@ a.text-black:focus {
   background-color: #b1a374;
 }
 .mbr-section-btn a.btn:not(.btn-form) {
-  border-radius: 100px;
+  border-radius: 10px;
 }
 .mbr-section-btn a.btn:not(.btn-form):hover {
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2);
@@ -1353,6 +1354,7 @@ pre {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  /*justify-content: space-between !important;*/
 }
 .note-air-layout .dropup .dropdown-menu,
 .note-air-layout .navbar-fixed-bottom .dropdown .dropdown-menu {
@@ -1366,11 +1368,13 @@ body {
 .cid-qHDNMmGd65 .navbar {
   padding: .5rem 0;
   background: #333333;
+  /*background: #f0f1f3;*/
   transition: none;
   min-height: 77px;
 }
 .cid-qHDNMmGd65 .navbar-dropdown.bg-color.transparent.opened {
   background: #333333;
+
 }
 .cid-qHDNMmGd65 a {
   font-style: normal;
@@ -1384,10 +1388,11 @@ body {
 }
 .cid-qHDNMmGd65 .nav-item a {
   display: flex;
+  /*background: pink !important;*/
   align-items: center;
   justify-content: center;
   padding: 0.7rem 0 !important;
-  margin: 0rem .65rem !important;
+  margin: 0rem .85rem !important;
 }
 .cid-qHDNMmGd65 .nav-item:focus,
 .cid-qHDNMmGd65 .nav-link:focus {
@@ -1422,7 +1427,8 @@ body {
 }
 .cid-qHDNMmGd65 .menu-logo .navbar-brand .navbar-caption-wrap .navbar-caption {
   line-height: 1.2rem !important;
-  padding-right: 2rem;
+  /*padding-right: 2rem;*/
+  padding-right: 0rem;
 }
 .cid-qHDNMmGd65 .menu-logo .navbar-brand .navbar-logo {
   font-size: 4rem;
@@ -1437,7 +1443,7 @@ body {
 .cid-qHDNMmGd65 .navbar-toggleable-sm .navbar-collapse {
   justify-content: flex-end;
   -webkit-justify-content: flex-end;
-  padding-right: 5rem;
+  /*padding-right: 1rem;*/
   width: auto;
 }
 .cid-qHDNMmGd65 .navbar-toggleable-sm .navbar-collapse .navbar-nav {
@@ -2402,7 +2408,10 @@ body {
 }
 .cid-qHDNMmGd65 .navbar {
   padding: .5rem 0;
-  background: #333333;
+  /*background: #333333;*/
+
+  background: #f0f1f3 ;
+
   transition: none;
   min-height: 77px;
 }
@@ -2423,7 +2432,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.7rem 0 !important;
+  padding: 0.7rem  !important;
   margin: 0rem .65rem !important;
 }
 .cid-qHDNMmGd65 .nav-item:focus,
@@ -2431,7 +2440,7 @@ body {
   outline: none;
 }
 .cid-qHDNMmGd65 .btn {
-  padding: 0.4rem 1.5rem;
+  padding: 0.6rem 0.5rem;
   display: inline-flex;
   align-items: center;
 }
@@ -2459,7 +2468,9 @@ body {
 }
 .cid-qHDNMmGd65 .menu-logo .navbar-brand .navbar-caption-wrap .navbar-caption {
   line-height: 1.2rem !important;
-  padding-right: 2rem;
+  /*padding-right: 2rem;*/
+  font-size: 1.2rem;
+  padding-right: 0 rem;
 }
 .cid-qHDNMmGd65 .menu-logo .navbar-brand .navbar-logo {
   font-size: 4rem;
@@ -2472,9 +2483,11 @@ body {
   transition: font-size 0.25s;
 }
 .cid-qHDNMmGd65 .navbar-toggleable-sm .navbar-collapse {
-  justify-content: flex-end;
-  -webkit-justify-content: flex-end;
-  padding-right: 5rem;
+  /*justify-content: flex-end;*/
+  justify-content: space-between;
+
+  -webkit-justify-content: space-between;
+  /*padding-right: 5rem;*/
   width: auto;
 }
 .cid-qHDNMmGd65 .navbar-toggleable-sm .navbar-collapse .navbar-nav {
@@ -2779,7 +2792,8 @@ body {
 }
 .cid-qHDNMmGd65 .nav-link:hover,
 .cid-qHDNMmGd65 .dropdown-item:hover {
-  color: #c1c1c1 !important;
+  /*color: #c1c1c1 !important;*/
+  color: #e27925 !important;
 }
 .cid-qJkmD81dHY {
   padding-top: 135px;
@@ -3351,4 +3365,31 @@ body {
 }
 .cid-qJCpwfSZnF P {
   color: #cccccc;
+}
+
+/*additional*/
+.active a{
+  color: #e27925 !important;
+}
+.navbar-caption{
+  color: #e27925 !important;
+}
+.btn-primary{
+  background: #e27925;
+  border: #e27925;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary.active{
+  color: #ffffff;
+  background-color: #c2671e;
+  border-color: #c2671e;
+}
+.nav_buttons{
+  display: flex;
+  flex-direction: column;
+
+}
+.nav_buttons .navbar-buttons a{
+  width:10.2rem;
+  font-size: 0.9rem;
+  border-radius:4px !important;
 }
